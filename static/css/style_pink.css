@@ -1,0 +1,76 @@
+body{
+background: #ffcaca;
+}
+#main {
+text-align:center;
+margin:10px auto;
+}
+
+#tool{
+float:left;
+width:100px;
+height:70%;
+border: 1px solid #fff;
+background: #e2ff8a;
+}
+#container{
+float:left;
+}
+
+input{
+width:100%;
+height:auto;
+padding:5px;
+border:none;
+cursor: pointer;
+color:white;
+font-size:20;
+font-weight:bold;
+background: #696760;
+text-align: center;
+vertical-align: middle;
+}
+input:hover{
+background: #86837b;
+}
+#cTime{
+margin-top:1px;
+cursor:default;
+}
+.last{
+background: #ffcaca;
+margin-top:1px;
+}
+
+.box,.bg,.bg_over,.bg_a {
+display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #fff;
+    background: #696760;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+font-weight:bold;
+}
+.box:hover{background: #9dabe0;}
+
+.bg,.bg_over,.bg_a{cursor: default;}
+.bg{background: #dde6d3;}
+
+.bg_a{background: #2ca02f;}
+.bg_over{background: #52514c;}
+
+.green{color:#0b9c18;}
+.blue{color:#0803af;}
+.red{color:#fb2803;}
+
+.bgblue,.pink{
+border-radius:8px;
+width:auto;
+height:42px;
+margin-left:5px;
+}
+.bgblue{background:#6e789c;}
+.pink{background:#ffcaca;}
