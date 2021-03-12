@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>注意力实验</title>
+
+    <link href="../static/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <style>
+        @media screen {
+            button{
+                width: 350px;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="login">
+
+<div class="login_m">
+    <div class="login_logo"><img src="../static/images/logo.png" width="250" height="46"></div>
+    <div class="login_boder" style="height: 450px">
+        <form method="post">
+        <div class="login_padding" >
+            <h2>姓名</h2>
+            <label>
+                <input type="text" name="name" id="username" class="txt_input txt_input2" placeholder="请输入姓名">
+            </label>
+            <h2>年龄</h2>
+            <label>
+                <input type="number" name="age" id="age" class="txt_input" placeholder="请输入年龄">
+            </label>
+            <h2>性别</h2>
+            <label>
+                <input type="text" name="sex" id="sex" class="txt_input" placeholder="请输入性别">
+            </label>
+            <h2>次数</h2>
+            <label>
+                <input type="text" name="times" id="times" class="txt_input" placeholder="请输入实验次数">
+            </label>
+            <br>
+        </div>
+        <div style="text-align: center">
+            <button class="btn btn-success custom-radio">提交</button>
+        </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
